@@ -3,27 +3,12 @@
 Aplicativo de forca de vendas para gerar pedidos de venda com itens, valores,
 condicao de pagamento, parcelas e calculo de frete. Trabalho academico.
 
-## Tecnologias
-- **Kotlin**
-- **Jetpack Compose** (Material 3) para todas as telas
-- **Room** para persistencia local (SQLite)
-- **MVVM** (ViewModel + StateFlow + Repository)
-- **Navigation Compose** (barra de navegacao inferior)
 
 ## Como executar
 1. Abra a pasta `ForcaVendasApp` no **Android Studio** (Ladybug ou mais recente).
 2. Aguarde o Gradle sincronizar (ele baixa as dependencias automaticamente).
 3. Rode em um emulador ou dispositivo (API 24+).
 
-> Pela linha de comando (com JDK 17 e Android SDK configurados):
-> `./gradlew assembleDebug` (Linux/macOS) ou `gradlew.bat assembleDebug` (Windows).
-
-## Telas
-- **Pedido** - selecao de cliente, adicao de itens, totais, condicao de
-  pagamento, parcelas, endereco de entrega/frete, conclusao e consulta por codigo.
-- **Clientes** - cadastro de cliente vinculado a um endereco + lista.
-- **Enderecos** - cadastro de endereco + lista.
-- **Itens** - cadastro de item (produto) + lista.
 
 ## Regras de negocio implementadas
 | Regra | Comportamento |
